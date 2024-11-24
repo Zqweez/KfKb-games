@@ -436,14 +436,11 @@ function b(c, d) {
     }, b(c, d);
 }
 function ac() {
-    console.log("Sorting")
     const b4 = aN, G = document[b4(0xdc)](b4(0xd1));
     G['innerHTML'] = '';
-    console.log(a4)
     a4['sort']((ai, aj) => {
         return aj.Score - ai.Score;
     });
-    console.log(a4)
     for (let ai = 0x0; ai < a4[b4(0xc4)]; ai++) {
         const ac = a4[ai];
         const player = ac;
