@@ -305,7 +305,7 @@ window[aN(0xe6)] = async function () {
     }), playerDetailForm[aO(0xfd)](aO(0x10b), G => {
         const aS = aO;
         G[aS(0xfc)](), aa();
-    }), I(), window[aO(0xfd)](aO(0xee), I), a3 = new ah(), updateScoreBoard(), document['addEventListener'](aO(0x11a), G => {
+    }), I(), window[aO(0xfd)](aO(0xee), I), a3 = new ah(), a9(), document['addEventListener'](aO(0x11a), G => {
         L(G);
     }), a0 = setInterval(a7, 0x3e8 / 0x3c);
 };
@@ -373,7 +373,7 @@ function a8() {
         }), Q[aU(0xe4)] = a3['q'], R[aU(0xd5)] = a3['q'], S[aU(0xe4)] = a3['r'], T[aU(0xe4)] = a3['j'];
     }
 }
-function updateScoreBoard() {
+function a9() {
     const aZ = aN, G = document[aZ(0xdc)](aZ(0x140));
     G[aZ(0xd8)][aZ(0xba)](aZ(0x11b)), ab()['finally'](() => {
         const b0 = aZ;
