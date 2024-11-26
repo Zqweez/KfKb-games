@@ -441,8 +441,20 @@ function ac() {
     a4['sort']((ai, aj) => {
         return aj.Score - ai.Score;
     });
-    for (let ai = 0x0; ai < a4[b4(0xc4)]; ai++) {
-        const ac = a4[ai];
+
+    let addedPlayers = [];
+    let addedIds = [];
+    for (let i = 0; i < a4.length; i++) {
+        const player = a4[i];
+        if (addedIds.includes(player.playerID)) {
+            continue;
+        }
+        addedIds.push(player.playerID);
+        addedPlayers.push(player);
+    }
+
+    for (let ai = 0x0; ai < addedPlayers[b4(0xc4)]; ai++) {
+        const ac = addedPlayers[ai];
         const player = ac;
 
         // Create a new row
