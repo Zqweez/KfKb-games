@@ -240,6 +240,16 @@ function controllerPress(G, ai) {
         }
     }
 }
+
+function darkModeToggle() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    darkMode = !darkMode;
+    const b = document.getElementById('dark-mode-button');
+    b.innerHTML = darkMode === false ? "&#9788;" : "&#9790;";
+    a8();
+}
+
 function L(G) {
     const aM = b;
     (G[aM(0xf1)] == aM(0xe5) || G[aM(0xf1)] == aM(0xf4)) && (a3[aM(0x127)] == 0x1 ? pauseButtonPress() : startButtonPress());
@@ -291,6 +301,8 @@ a5['2000'] = [
     'Du\x20är\x20sämst'
 ];
 var a6 = a5;
+var darkMode = false;
+
 window[aN(0xe6)] = async function () {
     const aO = aN;
     console[aO(0x105)](aO(0x132)), document['querySelectorAll'](aO(0xcd))[aO(0xfb)](G => {
@@ -325,8 +337,10 @@ function a7() {
     }
 }
 function a8() {
+    let bg_color;
+    bg_color = darkMode === false ? `rgb(220, 220, 220)`: `rgb(50, 50, 50)`;
     const aU = aN;
-    N[aU(0x13c)] = aU(0x142), N[aU(0xe9)](0x0, 0x0, M[aU(0x115)], M['height']), P['fillStyle'] = aU(0x142), P[aU(0xe9)](0x0, 0x0, O[aU(0x115)], O['height']);
+    N[aU(0x13c)] = bg_color, N[aU(0xe9)](0x0, 0x0, M[aU(0x115)], M['height']), P['fillStyle'] = bg_color, P[aU(0xe9)](0x0, 0x0, O[aU(0x115)], O['height']);
     const G = M[aU(0x115)] / a1;
     N['fillStyle'] = 'rgb(180,180,180)';
     for (let ai = 0x0; ai < a1; ai++) {
