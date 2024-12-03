@@ -1,510 +1,470 @@
-function d(a, b) {
-    const e = c();
-    return d = function (f, g) {
-        f = f - 0x7f;
-        let h = e[f];
-        return h;
-    }, d(a, b);
-}
-const aW = d;
-(function (am, an) {
-    const aJ = d, ao = am();
+const aR = b;
+(function (aj, ak) {
+    const aG = b, al = aj();
     while (!![]) {
         try {
-            const ap = parseInt(aJ(0x98)) / 0x1 * (-parseInt(aJ(0x81)) / 0x2) + parseInt(aJ(0xa6)) / 0x3 + parseInt(aJ(0xe8)) / 0x4 * (parseInt(aJ(0x114)) / 0x5) + -parseInt(aJ(0x10c)) / 0x6 * (-parseInt(aJ(0xdc)) / 0x7) + -parseInt(aJ(0x8f)) / 0x8 * (parseInt(aJ(0x94)) / 0x9) + -parseInt(aJ(0xe3)) / 0xa * (parseInt(aJ(0xac)) / 0xb) + -parseInt(aJ(0x7f)) / 0xc * (parseInt(aJ(0x9a)) / 0xd);
-            if (ap === an)
+            const am = -parseInt(aG(0xdf)) / 0x1 * (-parseInt(aG(0x14a)) / 0x2) + -parseInt(aG(0xc6)) / 0x3 * (parseInt(aG(0x117)) / 0x4) + parseInt(aG(0x101)) / 0x5 + -parseInt(aG(0x124)) / 0x6 + parseInt(aG(0x125)) / 0x7 + -parseInt(aG(0x144)) / 0x8 + -parseInt(aG(0x114)) / 0x9 * (-parseInt(aG(0xf5)) / 0xa);
+            if (am === ak)
                 break;
             else
-                ao['push'](ao['shift']());
-        } catch (aq) {
-            ao['push'](ao['shift']());
+                al['push'](al['shift']());
+        } catch (an) {
+            al['push'](al['shift']());
         }
     }
-}(c, 0x5afd4));
-const J = (function () {
-        let am = !![];
-        return function (an, ao) {
-            const ap = am ? function () {
-                if (ao) {
-                    const aq = ao['apply'](an, arguments);
-                    return ao = null, aq;
-                }
-            } : function () {
-            };
-            return am = ![], ap;
-        };
-    }()), K = J(this, function () {
-        const aL = d, am = function () {
-                const aK = d;
-                let aq;
-                try {
-                    aq = Function(aK(0xe9) + aK(0x10e) + ');')();
-                } catch (ar) {
-                    aq = window;
-                }
-                return aq;
-            }, an = am(), ao = an['console'] = an['console'] || {}, ap = [
-                aL(0x84),
-                aL(0xdb),
-                aL(0x105),
-                aL(0xcc),
-                'exception',
-                aL(0x92),
-                aL(0xf0)
-            ];
-        for (let aq = 0x0; aq < ap[aL(0xb5)]; aq++) {
-            const ar = J['constructor'][aL(0xcf)][aL(0x99)](J), as = ap[aq], at = ao[as] || ar;
-            ar['__proto__'] = J[aL(0x99)](J), ar['toString'] = at[aL(0xaf)][aL(0x99)](at), ao[as] = ar;
-        }
-    });
-K();
-function L() {
-    const aM = d, am = window['innerHeight'], an = window[aM(0xfc)], ao = Math['ceil'](window[aM(0xf5)]);
-    let ap = an / 0x2, aq = ap * 0x2, ar = 0.35;
-    ap > an * ar && (ap = an * ar, aq = ap * 0x2);
-    let as = 0.75;
-    aq > am * as && (aq = am * as, ap = aq / 0x2);
-    Q[aM(0xfe)] = ap * ao, Q['height'] = aq * ao, Q[aM(0xee)][aM(0xfe)] = ap + 'px', Q[aM(0xee)][aM(0xb4)] = aq + 'px';
-    const at = Q['width'] / a5;
-    S['width'] = 0x4 * at, S[aM(0xb4)] = 11.5 * at, S['style'][aM(0xfe)] = 0x4 * ap / a5 + 'px', S[aM(0xee)]['height'] = 11.5 * aq / a6 + 'px', ac();
+}(a, 0x7f71f));
+function I() {
+    const aH = b, aj = window[aH(0xe6)], ak = window[aH(0x140)], al = Math['ceil'](window[aH(0xc4)]);
+    let am = ak / 0x2, an = am * 0x2, ao = 0.35;
+    am > ak * ao && (am = ak * ao, an = am * 0x2);
+    let ap = 0.75;
+    an > aj * ap && (an = aj * ap, am = an / 0x2);
+    N[aH(0x127)] = am * al, N[aH(0x13d)] = an * al, N[aH(0xd0)][aH(0x127)] = am + 'px', N[aH(0xd0)][aH(0x13d)] = an + 'px';
+    const aq = N[aH(0x127)] / a2;
+    P[aH(0x127)] = 0x4 * aq, P[aH(0x13d)] = 11.5 * aq, P[aH(0xd0)][aH(0x127)] = 0x4 * am / a2 + 'px', P[aH(0xd0)][aH(0x13d)] = 11.5 * an / a3 + 'px', a9();
 }
-function M() {
-    const aN = d, am = window[aN(0xf9)], an = window['innerWidth'], ao = Math['ceil'](window['devicePixelRatio']), ap = 0.35, aq = 0.75, ar = a6 / a5, as = Math[aN(0x90)](an * ap * ar, am * aq);
-    let at = as / ar, au = as;
-    Q[aN(0xfe)] = at * ao, Q[aN(0xb4)] = au * ao, Q['style'][aN(0xfe)] = at + 'px', Q[aN(0xee)][aN(0xb4)] = au + 'px';
-    const av = Q[aN(0xfe)] / a5;
-    S['width'] = 0x4 * av, S[aN(0xb4)] = 11.5 * av, S['style'][aN(0xfe)] = 0x4 * at / a5 + 'px', S[aN(0xee)][aN(0xb4)] = 11.5 * au / a6 + 'px', ac();
+function J() {
+    const aI = b, aj = window[aI(0xe6)], ak = window['innerWidth'], al = Math[aI(0xf6)](window[aI(0xc4)]), am = 0.35, an = 0.75, ao = a3 / a2, ap = Math[aI(0x128)](ak * am * ao, aj * an);
+    let aq = ap / ao, ar = ap;
+    N[aI(0x127)] = aq * al, N[aI(0x13d)] = ar * al, N['style']['width'] = aq + 'px', N[aI(0xd0)]['height'] = ar + 'px';
+    const as = N[aI(0x127)] / a2;
+    P['width'] = 0x4 * as, P[aI(0x13d)] = 11.5 * as, P[aI(0xd0)]['width'] = 0x4 * aq / a2 + 'px', P[aI(0xd0)][aI(0x13d)] = 11.5 * ar / a3 + 'px', a9();
 }
 function startButtonPress() {
-    const aO = d;
-    a2['style'][aO(0xaa)] = 'none', a3['innerText'] = aO(0xdd), Y[aO(0xee)]['display'] = aO(0x8a), a1[aO(0xee)][aO(0xaa)] = aO(0x8a), a7['state'] == 0x3 && (a7 = new al()), a7[aO(0xeb)] = 0x1;
+    const aJ = b;
+    Z[aJ(0xd0)][aJ(0xca)] = 'none', a0[aJ(0xf1)] = aJ(0xde), V['style'][aJ(0xca)] = aJ(0xd8), Y[aJ(0xd0)]['display'] = aJ(0xd8), a4['state'] == 0x3 && (a4 = new ai()), a4[aJ(0x113)] = 0x1;
 }
 function pauseButtonPress() {
-    const aP = d;
-    a7[aP(0xeb)] == 0x1 && (a3['innerText'] = aP(0xfd), a2['style'][aP(0xaa)] = aP(0x8d), a7['state'] = 0x2);
+    const aK = b;
+    a4[aK(0x113)] == 0x1 && (a0['innerText'] = aK(0xe8), Z['style']['display'] = aK(0x129), a4[aK(0x113)] = 0x2);
 }
 function infoButtonPress() {
-    const aQ = d;
-    pauseButtonPress(), Z[aQ(0xee)][aQ(0xaa)] == 'none' ? Z[aQ(0xee)][aQ(0xaa)] = aQ(0xc5) : Z[aQ(0xee)]['display'] = aQ(0x8a);
-}
-function c() {
-    const bw = [
-        'grid',
-        'forEach',
-        'devicePixelRatio',
-        'Game\x20Over',
-        'There\x20was\x20a\x20problem\x20with\x20the\x20fetch\x20operation:',
-        'rgb(180,180,180)',
-        'innerHeight',
-        'textContent',
-        'Sent\x20data',
-        'innerWidth',
-        'Fortsätt',
-        'width',
-        'rgb(70,\x20140,\x2070)',
-        'charCodeAt',
-        'type',
-        'Det\x20är\x20ett\x20U',
-        'rgba(30,30,30,0.8)',
-        'dark-mode',
-        'info',
-        'resize',
-        'json',
-        'down',
-        'Sluta\x20fuska!\x20Stoppar\x20spel...',
-        'addEventListener',
-        'getElementById',
-        '18ZRRCbX',
-        'realName-input',
-        '{}.constructor(\x22return\x20this\x22)(\x20)',
-        'rgb(50,\x2050,\x2050)',
-        'information_texts',
-        'Starta\x20spelet\x20först',
-        'color',
-        'rotation',
-        '265puWVLu',
-        'ArrowLeft',
-        'GET',
-        'Space',
-        '60wYHMfj',
-        'code',
-        '10786NgEqiE',
-        'playerID-input',
-        'undefined',
-        'log',
-        'Kämpa',
-        'start_button_text',
-        'onload',
-        'shift',
-        'API\x20res:',
-        'none',
-        'Ge\x20upp',
-        'stringify',
-        'block',
-        'sort',
-        '72qLmbzK',
-        'min',
-        'value',
-        'table',
-        'Nästan\x20en\x20femma',
-        '17127inZajM',
-        'level_text',
-        'right',
-        'Helt\x20ok',
-        '115hhaFvy',
-        'bind',
-        '775151pTyxjT',
-        'max',
-        'Spela\x20igen',
-        'animationend',
-        'add',
-        'floor',
-        'lineTo',
-        'querySelector',
-        'beginPath',
-        'fillRect',
-        'keys',
-        '#leader-board\x20tbody',
-        '1681248ptnfEK',
-        'KeyA',
-        'toggle',
-        'Klassisk\x20kugg',
-        'display',
-        'pressed',
-        '3531LJAvMR',
-        'leader-board',
-        'Bättre\x20kan\x20du',
-        'toString',
-        'gameOver_text',
-        '.controller',
-        'abs',
-        'KeyD',
-        'height',
-        'length',
-        'Det\x20var\x20inget\x20vidare',
-        'fillStyle',
-        'splice',
-        'innerHTML',
-        'createElement',
-        '&#9788;',
-        'ArrowUp',
-        'preventDefault',
-        'map',
-        'clearedRows_text',
-        'start_button',
-        'Network\x20response\x20was\x20not\x20ok',
-        'push',
-        'score_text',
-        'Granska\x20till\x204a',
-        'flex',
-        'remove',
-        'shape',
-        'finally',
-        'Du\x20är\x20sämst',
-        'classList',
-        'appendChild',
-        'error',
-        'touchstart',
-        'nextBlock_canvas',
-        'prototype',
-        'ArrowRight',
-        'bottom',
-        'spinning',
-        'hash',
-        'submit',
-        'stroke',
-        '&#9790;',
-        'body',
-        'Du\x20hade\x20fått\x20en\x203a',
-        'Loaded\x20KfKblock',
-        'rgb(20,\x2020,\x2020)',
-        'warn',
-        '1432361fsenBi',
-        'Spela',
-        'ArrowDown',
-        'application/json',
-        '.update-leaderBoard-arrow',
-        'rgb(220,\x20220,\x20220)',
-        'random',
-        '3580jVNvbe',
-        'innerText',
-        'No\x20data\x20submitted',
-        'rgb(130,\x20130,\x20130)',
-        'rotate',
-        '18776vljDoN',
-        'return\x20(function()\x20',
-        'Imponerande',
-        'state',
-        'maxHeight',
-        'querySelectorAll',
-        'style',
-        'Respektabel\x204a',
-        'trace',
-        'getContext',
-        'Kan\x20granskas'
-    ];
-    c = function () {
-        return bw;
-    };
-    return c();
+    const aL = b;
+    pauseButtonPress(), W['style']['display'] == aL(0xd8) ? W[aL(0xd0)][aL(0xca)] = aL(0x14e) : W[aL(0xd0)][aL(0xca)] = aL(0xd8);
 }
 function darkModeToggle() {
-    const aR = d;
-    var am = document['body'];
-    am[aR(0xca)][aR(0xa8)](aR(0x104)), a8 = !a8;
-    const an = document['getElementById']('dark-mode-button');
-    an['innerHTML'] = a8 === ![] ? aR(0xbb) : aR(0xd6), ac();
+    const aM = b;
+    var aj = document[aM(0x143)];
+    aj[aM(0xfe)][aM(0xf3)](aM(0xd7)), a5 = !a5;
+    const ak = document[aM(0xd1)](aM(0x14c));
+    ak[aM(0xef)] = a5 === ![] ? aM(0xc3) : aM(0xd2), a9();
 }
-function N(am) {
-    const aS = d;
-    let an = Object[aS(0xa4)](aa)[aS(0xbe)](Number)[aS(0x8e)]((ao, ap) => ao - ap);
-    if (am < an[0x0]) {
-        let ao = aa[an[0x0]];
-        return ao[Math[aS(0x9f)](Math['random']() * ao[aS(0xb5)])];
+function K(aj) {
+    const aN = b;
+    let ak = Object['keys'](a7)['map'](Number)[aN(0x110)]((al, am) => al - am);
+    if (aj < ak[0x0]) {
+        let al = a7[ak[0x0]];
+        return al[Math[aN(0x12a)](Math[aN(0xd5)]() * al['length'])];
     }
-    if (am > an[an['length'] - 0x1]) {
-        let ap = aa[an[an['length'] - 0x1]];
-        return ap[Math['floor'](Math['random']() * ap[aS(0xb5)])];
+    if (aj > ak[ak[aN(0x12c)] - 0x1]) {
+        let am = a7[ak[ak['length'] - 0x1]];
+        return am[Math[aN(0x12a)](Math[aN(0xd5)]() * am[aN(0x12c)])];
     }
-    for (let aq = an[aS(0xb5)] - 0x1; aq >= 0x0; aq--) {
-        if (am >= an[aq]) {
-            let ar = aa[an[aq]];
-            return ar[Math[aS(0x9f)](Math[aS(0xe2)]() * ar['length'])];
+    for (let an = ak[aN(0x12c)] - 0x1; an >= 0x0; an--) {
+        if (aj >= ak[an]) {
+            let ao = a7[ak[an]];
+            return ao[Math[aN(0x12a)](Math['random']() * ao['length'])];
         }
     }
 }
-function O() {
-    const aT = d;
-    a3[aT(0xe4)] = aT(0x9c), console[aT(0x84)](aT(0xf6)), Y[aT(0xee)]['display'] = aT(0x8d);
-    let am = a7['e'](), an = N(am);
-    console[aT(0x84)](an), Y[aT(0xb9)] = an, a1[aT(0xee)][aT(0xec)] = 0x0 + 'px', a1[aT(0xee)][aT(0xaa)] = aT(0xc5), a1[aT(0xee)][aT(0xec)] = 'fit-content';
+function L() {
+    const aO = b;
+    a0[aO(0xf1)] = aO(0x137), console[aO(0x10d)](aO(0xd9)), V['style'][aO(0xca)] = aO(0x129);
+    let aj = a4['c'](), ak = K(aj);
+    console[aO(0x10d)](ak), V[aO(0xef)] = ak, Y[aO(0xd0)]['maxHeight'] = 0x0 + 'px', Y[aO(0xd0)]['display'] = aO(0x14e), Y[aO(0xd0)][aO(0xd4)] = aO(0xc9);
 }
-function controllerPress(am, an) {
-    const aU = d;
-    if (a7[aU(0xeb)] != 0x1) {
-        console['log'](aU(0x111));
+function controllerPress(aj, ak) {
+    const aP = b;
+    if (a4['state'] != 0x1) {
+        console['log'](aP(0x150));
         return;
     }
-    if (am == aU(0xe7))
-        a7['f']();
+    if (aj == 'rotate')
+        a4['d']();
     else {
-        if (am == aU(0xd1))
-            a7['g']();
+        if (aj == 'bottom')
+            a4['e']();
         else {
-            if (am == aU(0x108))
-                a7['h'](0x1), a7['i']();
+            if (aj == 'down')
+                a4['f'](0x1), a4['g']();
             else {
-                if (am == 'left')
-                    a7['j'](-0x1);
+                if (aj == aP(0x135))
+                    a4['h'](-0x1);
                 else
-                    am == aU(0x96) && a7['j'](0x1);
+                    aj == aP(0x116) && a4['h'](0x1);
             }
         }
     }
 }
-function P(am) {
-    const aV = d;
-    (am[aV(0x80)] == 'Escape' || am[aV(0x80)] == 'KeyP') && (a7['state'] == 0x1 ? pauseButtonPress() : startButtonPress());
-    if (a7['state'] != 0x1) {
-        console[aV(0x84)]('Starta\x20spelet\x20först');
-        am[aV(0x80)] == aV(0x117) && am['target'] == document[aV(0xd7)] && am[aV(0xbd)]();
+function b(c, d) {
+    const e = a();
+    return b = function (f, g) {
+        f = f - 0xc3;
+        let h = e[f];
+        return h;
+    }, b(c, d);
+}
+function M(aj) {
+    const aQ = b;
+    if (aj['code'] == 'Escape' || aj[aQ(0xcb)] == aQ(0x147)) {
+        if (a4[aQ(0x113)] == 0x1)
+            pauseButtonPress();
+        else
+            a4[aQ(0x113)] == 0x2 && startButtonPress();
+    }
+    if (a4[aQ(0x113)] != 0x1) {
+        console['log'](aQ(0x150));
+        aj[aQ(0xcb)] == aQ(0x13f) && aj[aQ(0x13a)] == document[aQ(0x143)] && aj[aQ(0x149)]();
         return;
     }
-    if (am[aV(0x80)] == aV(0x115) || am[aV(0x80)] == aV(0xa7))
-        a7['j'](-0x1);
+    if (aj['code'] == aQ(0xfd) || aj[aQ(0xcb)] == aQ(0x10f))
+        a4['h'](-0x1);
     else {
-        if (am[aV(0x80)] == aV(0xd0) || am[aV(0x80)] == aV(0xb3))
-            a7['j'](0x1);
+        if (aj[aQ(0xcb)] == aQ(0x126) || aj[aQ(0xcb)] == aQ(0x146))
+            a4['h'](0x1);
         else {
-            if (am['code'] == aV(0xbc) || am[aV(0x80)] == 'KeyW')
-                a7['f'](), am[aV(0xbd)]();
+            if (aj[aQ(0xcb)] == aQ(0x108) || aj[aQ(0xcb)] == aQ(0x112))
+                a4['d'](), aj[aQ(0x149)]();
             else {
-                if (am['code'] == aV(0xde) || am[aV(0x80)] == 'KeyS')
-                    a7['i'](), a7['h'](0x1), am['preventDefault']();
+                if (aj['code'] == aQ(0x105) || aj[aQ(0xcb)] == 'KeyS')
+                    a4['g'](), a4['f'](0x1), aj[aQ(0x149)]();
                 else
-                    am[aV(0x80)] == aV(0x117) && (a7['g'](), am[aV(0xbd)]());
+                    aj[aQ(0xcb)] == aQ(0x13f) && (a4['e'](), aj[aQ(0x149)]());
             }
         }
     }
 }
-const Q = document['getElementById']('canvas'), R = Q[aW(0xf1)]('2d'), S = document[aW(0x10b)](aW(0xce)), T = S[aW(0xf1)]('2d'), U = document[aW(0x10b)](aW(0xc3)), V = document[aW(0x10b)]('score-submit-score'), W = document[aW(0x10b)](aW(0xbf)), X = document[aW(0x10b)](aW(0x95)), Y = document[aW(0x10b)](aW(0xb0)), Z = document[aW(0x10b)](aW(0x110)), a0 = document[aW(0x10b)](aW(0xad)), a1 = document['getElementById']('submit-score-container');
-var a2 = document[aW(0x10b)](aW(0xc0)), a3 = document[aW(0x10b)](aW(0x86)), a4, a5 = 0xa, a6 = 0x14, a7, a8 = ![], a9 = [], aa = {
+const N = document['getElementById'](aR(0xff)), O = N[aR(0x141)]('2d'), P = document[aR(0xd1)](aR(0xf9)), Q = P[aR(0x141)]('2d'), R = document[aR(0xd1)](aR(0x11c)), S = document[aR(0xd1)](aR(0x11f)), T = document[aR(0xd1)]('clearedRows_text'), U = document['getElementById']('level_text'), V = document[aR(0xd1)]('gameOver_text'), W = document[aR(0xd1)](aR(0x14b)), X = document[aR(0xd1)]('leader-board'), Y = document['getElementById']('submit-score-container');
+let Z = document['getElementById']('start_button'), a0 = document[aR(0xd1)](aR(0xee)), a1, a2 = 0xa, a3 = 0x14, a4, a5 = ![], a6 = [], a7 = {
         0x7d0: [
-            aW(0xb6),
-            aW(0xa9),
-            aW(0x8b)
+            aR(0xcd),
+            aR(0x134),
+            'Ge\x20upp'
         ],
         0x1388: [
-            'Nästan\x20godkänt',
-            aW(0x102),
-            aW(0xf2)
+            aR(0xcf),
+            aR(0x136),
+            aR(0xe3)
         ],
         0x2710: [
-            'Limes',
-            aW(0xd8)
+            aR(0x12f),
+            'Du\x20hade\x20fått\x20en\x203a'
         ],
         0x3a98: [
-            aW(0x97),
-            aW(0xc4)
+            aR(0xe1),
+            aR(0xe0)
         ],
-        0x4e20: [aW(0xef)],
-        0x7530: [aW(0x93)],
+        0x4e20: [aR(0x13b)],
+        0x7530: [aR(0x142)],
         0x9c40: [
-            aW(0xea),
-            aW(0xae)
+            aR(0xdd),
+            aR(0xed)
         ],
         0xc350: [
-            'Sök\x20webmästeriet',
-            aW(0x85),
-            aW(0xc9)
+            aR(0x10c),
+            aR(0x120),
+            aR(0xf7)
         ]
     };
-window[aW(0x87)] = async function () {
-    const aX = aW;
-    console[aX(0x84)](aX(0xd9)), document[aX(0xed)](aX(0xb1))['forEach'](am => {
-        const aY = aX;
-        am[aY(0x10a)](aY(0xcd), () => {
-            const aZ = aY;
-            am[aZ(0xca)][aZ(0x9e)](aZ(0xab));
-        }), am[aY(0x10a)](aY(0x9d), () => {
-            const b0 = aY;
-            am[b0(0xca)][b0(0xc6)]('pressed');
+function a() {
+    const bs = [
+        '45YGPhaw',
+        'type',
+        'right',
+        '2441932fqNktb',
+        'includes',
+        'push',
+        'undefined',
+        'finally',
+        'score_text',
+        'max',
+        'touchstart',
+        'score-submit-score',
+        'Kämpa',
+        'abs',
+        'Network\x20response\x20was\x20not\x20ok',
+        '#leader-board\x20tbody',
+        '3475698pSWjsf',
+        '2029937YElwpA',
+        'ArrowRight',
+        'width',
+        'min',
+        'block',
+        'floor',
+        'rgb(130,\x20170,\x20120)',
+        'length',
+        'json',
+        'error',
+        'Limes',
+        'addEventListener',
+        'rotate',
+        'querySelector',
+        'textContent',
+        'Klassisk\x20kugg',
+        'left',
+        'Det\x20är\x20ett\x20U',
+        'Spela\x20igen',
+        'beginPath',
+        'getKey',
+        'target',
+        'Respektabel\x204a',
+        'grid',
+        'height',
+        'hash',
+        'Space',
+        'innerWidth',
+        'getContext',
+        'Nästan\x20en\x20femma',
+        'body',
+        '2420776wtXXIo',
+        'shift',
+        'KeyD',
+        'KeyP',
+        'There\x20was\x20a\x20problem\x20with\x20the\x20fetch\x20operation:',
+        'preventDefault',
+        '4NRzwqG',
+        'information_texts',
+        'dark-mode-button',
+        'resize',
+        'flex',
+        'rgb(50,\x2050,\x2050)',
+        'Starta\x20spelet\x20först',
+        'rgb(70,\x20140,\x2070)',
+        '&#9788;',
+        'devicePixelRatio',
+        'rgb(130,\x20130,\x20130)',
+        '3efxkXv',
+        'color',
+        'rgb(180,180,180)',
+        'fit-content',
+        'display',
+        'code',
+        'pressed',
+        'Det\x20var\x20inget\x20vidare',
+        'spinning',
+        'Nästan\x20godkänt',
+        'style',
+        'getElementById',
+        '&#9790;',
+        'rgba(30,30,30,0.8)',
+        'maxHeight',
+        'random',
+        'onload',
+        'dark-mode',
+        'none',
+        'Game\x20Over',
+        'realName-input',
+        'fillRect',
+        'Loaded\x20KfKblock',
+        'Imponerande',
+        'Spela',
+        '229291iavlGF',
+        'Granska\x20till\x204a',
+        'Helt\x20ok',
+        'map',
+        'Kan\x20granskas',
+        'https://webmasteriet.vercel.app/players',
+        'rgb(170,\x20200,\x20160)',
+        'innerHeight',
+        'toString',
+        'Fortsätt',
+        'lineTo',
+        '.update-leaderBoard-arrow',
+        'charCodeAt',
+        'POST',
+        'Bättre\x20kan\x20du',
+        'start_button_text',
+        'innerHTML',
+        'animationend',
+        'innerText',
+        'createElement',
+        'toggle',
+        'rgb(20,\x2020,\x2020)',
+        '842030zeiCMw',
+        'ceil',
+        'Du\x20är\x20sämst',
+        'splice',
+        'nextBlock_canvas',
+        'stringify',
+        'playerID-input',
+        'No\x20data\x20submitted',
+        'ArrowLeft',
+        'classList',
+        'canvas',
+        'API\x20res:',
+        '4223950LPsbZl',
+        'forEach',
+        'stroke',
+        'fillStyle',
+        'ArrowDown',
+        'submit',
+        'value',
+        'ArrowUp',
+        'remove',
+        'appendChild',
+        'shape',
+        'Sök\x20webmästeriet',
+        'log',
+        'rgb(220,\x20220,\x20220)',
+        'KeyA',
+        'sort',
+        'add',
+        'KeyW',
+        'state'
+    ];
+    a = function () {
+        return bs;
+    };
+    return a();
+}
+window[aR(0xd6)] = async function () {
+    const aS = aR;
+    console[aS(0x10d)](aS(0xdc)), document['querySelectorAll']('.controller')['forEach'](aj => {
+        const aT = aS;
+        aj[aT(0x130)](aT(0x11e), () => {
+            const aU = aT;
+            aj[aU(0xfe)][aU(0x111)](aU(0xcc));
+        }), aj['addEventListener'](aT(0xf0), () => {
+            const aV = aT;
+            aj[aV(0xfe)][aV(0x109)](aV(0xcc));
         });
-    }), playerDetailForm[aX(0x10a)](aX(0xd4), am => {
-        const b1 = aX;
-        am[b1(0xbd)](), ae();
-    }), M(), window[aX(0x10a)](aX(0x106), M), a7 = new al(), ad(), document[aX(0x10a)]('keydown', am => {
-        P(am);
-    }), a4 = setInterval(ab, 0x3e8 / 0x3c);
+    }), playerDetailForm[aS(0x130)](aS(0x106), aj => {
+        const aW = aS;
+        aj[aW(0x149)](), ab();
+    }), J(), window[aS(0x130)](aS(0x14d), J), a4 = new ai(), updateScoreBoard(), document[aS(0x130)]('keydown', aj => {
+        M(aj);
+    }), a1 = setInterval(a8, 0x3e8 / 0x3c);
 };
-function ab() {
-    const b2 = aW;
-    ac();
-    if (a7[b2(0xeb)] == 0x1)
-        a7['k'] <= 0x0 && (a7['i'](), a7['k'] = aj[Math[b2(0x90)](a7['l'], aj[b2(0xb5)] - 0x1)]), a7['k']--, a7['m']();
+function a8() {
+    const aX = aR;
+    a9();
+    if (a4[aX(0x113)] == 0x1)
+        a4['i'] <= 0x0 && (a4['g'](), a4['i'] = ag[Math[aX(0x128)](a4['j'], ag[aX(0x12c)] - 0x1)]), a4['i']--, a4['k']();
     else {
-        if (a7[b2(0xeb)] == 0x0)
+        if (a4[aX(0x113)] == 0x0)
             return;
         else {
-            if (a7[b2(0xeb)] == 0x2) {
+            if (a4['state'] == 0x2) {
             } else
-                a7['state'] == 0x3 && (a2[b2(0xee)][b2(0xaa)] = b2(0x8d), a7[b2(0xeb)] == 0x0);
+                a4[aX(0x113)] == 0x3 && (Z[aX(0xd0)][aX(0xca)] = 'block', a4['state'] == 0x0);
         }
     }
 }
-function ac() {
-    const b3 = aW;
-    let am;
-    am = a8 === ![] ? b3(0xe1) : b3(0x10f), R[b3(0xb7)] = am, R[b3(0xa3)](0x0, 0x0, Q[b3(0xfe)], Q[b3(0xb4)]), T[b3(0xb7)] = am, T['fillRect'](0x0, 0x0, S['width'], S[b3(0xb4)]);
-    const an = Q[b3(0xfe)] / a5;
-    R[b3(0xb7)] = b3(0xf8);
-    for (let ao = 0x0; ao < a5; ao++) {
-        R[b3(0xa2)](), R[b3(0xa0)](ao * an, 0x0), R[b3(0xa0)](ao * an, Q[b3(0xb4)]), R[b3(0xd5)]();
+function a9() {
+    const aY = aR;
+    let aj;
+    aj = a5 === ![] ? aY(0x10e) : aY(0x14f), O[aY(0x104)] = aj, O['fillRect'](0x0, 0x0, N[aY(0x127)], N['height']), Q['fillStyle'] = aj, Q[aY(0xdb)](0x0, 0x0, P[aY(0x127)], P[aY(0x13d)]);
+    const ak = N[aY(0x127)] / a2;
+    O['fillStyle'] = aY(0xc8);
+    for (let al = 0x0; al < a2; al++) {
+        O[aY(0x138)](), O['lineTo'](al * ak, 0x0), O['lineTo'](al * ak, N[aY(0x13d)]), O[aY(0x103)]();
     }
-    for (let ap = 0x0; ap < a6; ap++) {
-        R[b3(0xa2)](), R[b3(0xa0)](0x0, ap * an), R[b3(0xa0)](Q[b3(0xfe)], ap * an), R['stroke']();
+    for (let am = 0x0; am < a3; am++) {
+        O[aY(0x138)](), O[aY(0xe9)](0x0, am * ak), O[aY(0xe9)](N[aY(0x127)], am * ak), O[aY(0x103)]();
     }
-    if (typeof a7 != b3(0x83)) {
-        for (let av = 0x0; av < a7[b3(0xf3)][b3(0xb5)]; av++) {
-            const aw = a7['grid'][av];
-            for (let ax = 0x0; ax < aw[b3(0xb5)]; ax++) {
-                const ay = aw[ax];
-                ay != null && (R[b3(0xb7)] = ai[ay], R[b3(0xa3)](ax * an + 0x1, av * an + 0x1, an - 0x2, an - 0x2));
+    if (typeof a4 != aY(0x11a)) {
+        for (let as = 0x0; as < a4[aY(0x13c)]['length']; as++) {
+            const at = a4[aY(0x13c)][as];
+            for (let au = 0x0; au < at[aY(0x12c)]; au++) {
+                const av = at[au];
+                av != null && (O[aY(0x104)] = af[av], O['fillRect'](au * ak + 0x1, as * ak + 0x1, ak - 0x2, ak - 0x2));
             }
         }
-        let aq = an / 5.5, ar = a7['n'];
-        if (ar != null) {
-            R[b3(0xb7)] = ar[b3(0x112)], ar['o']()['forEach'](aB => {
-                const b4 = b3;
-                let aC = ar['x'] + aB[0x0], aD = ar['y'] + aB[0x1];
-                R[b4(0xa3)](aC * an, aD * an, an, an);
-            }), R[b3(0xb7)] = b3(0x103), ar['p']()['forEach'](aB => {
-                const b5 = b3;
-                R[b5(0xa3)](aB[0x0] * an + aq, aB[0x1] * an + aq, an - aq * 0x2, an - aq * 0x2);
+        let an = ak / 5.5, ao = a4['l'];
+        if (ao != null) {
+            O[aY(0x104)] = ao['color'], ao['m']()[aY(0x102)](ay => {
+                const aZ = aY;
+                let az = ao['x'] + ay[0x0], aA = ao['y'] + ay[0x1];
+                O[aZ(0xdb)](az * ak, aA * ak, ak, ak);
+            }), O['fillStyle'] = aY(0xd3), ao['n']()[aY(0x102)](ay => {
+                const b0 = aY;
+                O[b0(0xdb)](ay[0x0] * ak + an, ay[0x1] * ak + an, ak - an * 0x2, ak - an * 0x2);
             });
-            let az = ar['y'], aA = -0x1;
-            while (!a7['q']()) {
-                ar['y']++, aA++;
+            let aw = ao['y'], ax = -0x1;
+            while (!a4['o']()) {
+                ao['y']++, ax++;
             }
-            ar['y'] = az, R[b3(0xb7)] = ar[b3(0x112)], ar['p']()[b3(0xf4)](aB => {
-                const b6 = b3;
-                R[b6(0xa3)](aB[0x0] * an + aq, (aA + aB[0x1]) * an + aq, an - aq * 0x2, an - aq * 0x2);
+            ao['y'] = aw, O[aY(0x104)] = ao[aY(0xc7)], ao['n']()[aY(0x102)](ay => {
+                const b1 = aY;
+                O[b1(0xdb)](ay[0x0] * ak + an, (ax + ay[0x1]) * ak + an, ak - an * 0x2, ak - an * 0x2);
             });
         }
-        let as = 0x0, at = a7['r'], au = 1.25;
-        at[b3(0xf4)](aB => {
-            const b7 = b3;
-            let aC = aB['o']()[b7(0xbe)](aG => aG[0x0]), aD = Math[b7(0xb2)](Math[b7(0x90)](...aC)) + Math[b7(0x9b)](...aC) + 0x1, aE = aB['o']()['map'](aG => aG[0x1]), aF = Math[b7(0xb2)](Math[b7(0x90)](...aE)) + Math['max'](...aE) + 0x1;
-            aB['o']()['forEach'](aG => {
-                const b8 = b7;
-                let aH = aG[0x0] + 0x1 + (0x4 - aD) / 0x2, aI = aG[0x1] + au;
-                aF == 0x1 && (aI = aI - 0.5), T['fillStyle'] = aB['color'], T['fillRect'](aH * an, aI * an, an, an), T[b8(0xb7)] = b8(0x103), T[b8(0xa3)](aH * an + aq, aI * an + aq, an - aq * 0x2, an - aq * 0x2);
-            }), au = au + 2.25;
-        }), U['innerText'] = a7['s'], V[b3(0xb9)] = a7['s'], W[b3(0xe4)] = a7['t'], X[b3(0xe4)] = a7['l'];
+        let ap = 0x0, aq = a4['p'], ar = 1.25;
+        aq[aY(0x102)](ay => {
+            const b2 = aY;
+            let az = ay['m']()[b2(0xe2)](aD => aD[0x0]), aA = Math[b2(0x121)](Math[b2(0x128)](...az)) + Math[b2(0x11d)](...az) + 0x1, aB = ay['m']()['map'](aD => aD[0x1]), aC = Math[b2(0x121)](Math[b2(0x128)](...aB)) + Math['max'](...aB) + 0x1;
+            ay['m']()[b2(0x102)](aD => {
+                const b3 = b2;
+                let aE = aD[0x0] + 0x1 + (0x4 - aA) / 0x2, aF = aD[0x1] + ar;
+                aC == 0x1 && (aF = aF - 0.5), Q[b3(0x104)] = ay[b3(0xc7)], Q[b3(0xdb)](aE * ak, aF * ak, ak, ak), Q['fillStyle'] = b3(0xd3), Q[b3(0xdb)](aE * ak + an, aF * ak + an, ak - an * 0x2, ak - an * 0x2);
+            }), ar = ar + 2.25;
+        }), R[aY(0xf1)] = a4['q'], S[aY(0xef)] = a4['q'], T[aY(0xf1)] = a4['r'], U[aY(0xf1)] = a4['j'];
     }
 }
-function ad() {
-    const b9 = aW, am = document[b9(0xa1)](b9(0xe0));
-    am[b9(0xca)]['add'](b9(0xd2)), af()[b9(0xc8)](() => {
-        const ba = b9;
-        am[ba(0xca)][ba(0xc6)](ba(0xd2));
+function updateScoreBoard() {
+    const b4 = aR, aj = document[b4(0x132)](b4(0xea));
+    aj[b4(0xfe)][b4(0x111)]('spinning'), ac()[b4(0x11b)](() => {
+        const b5 = b4;
+        aj[b5(0xfe)]['remove'](b5(0xce));
     });
 }
-async function ae() {
-    const bb = aW;
+async function ab() {
+    const b6 = aR;
     try {
-        a7['m'](), a1[bb(0xee)][bb(0xaa)] = bb(0x8a);
-        const am = document[bb(0x10b)](bb(0x82))[bb(0x91)], an = document[bb(0x10b)](bb(0x10d))['value'], ao = {
-                'block': a7['u'] - 0x1,
-                'level': a7['l'],
-                'levelClearedRows': a7['t']
-            }, ap = {
-                'playerID': am,
-                'RealName': an,
-                'Score': a7['e'](),
-                'Other': ao
+        a4['k'](), Y['style'][b6(0xca)] = b6(0xd8);
+        const aj = document[b6(0xd1)](b6(0xfb))[b6(0x107)], ak = document[b6(0xd1)](b6(0xda))[b6(0x107)], al = {
+                'block': a4['s'] - 0x1,
+                'level': a4['j'],
+                'levelClearedRows': a4['r']
+            }, am = {
+                'playerID': aj,
+                'RealName': ak,
+                'Score': a4['c'](),
+                'Other': al,
+                'Key': a4[b6(0x139)]()
             };
-        console[bb(0x84)](bb(0xfb), ap), a9[bb(0xc2)]({
-            'playerID': am,
-            'Score': a7['e']()
-        }), ag();
-        const aq = await fetch('https://webmasteriet.vercel.app/add-player', {method: "POST", headers: {
+        console[b6(0x10d)]('Sent\x20data', am), a6['push']({
+            'playerID': aj,
+            'Score': a4['c']()
+        }), ad();
+        const an = await fetch('https://webmasteriet.vercel.app/add-player', {method: "POST", headers: {
             'Content-Type': 'application/json'  // Make sure the request is treated as JSON
-        }, body: JSON.stringify(ap)});
-        if (!aq['ok'])
-            throw new Error(bb(0xc1));
-        const ar = await aq['json']();
-        console[bb(0x84)](bb(0x89), ar);
-    } catch (as) {
-        console['error']('There\x20was\x20a\x20problem\x20with\x20the\x20fetch\x20operation:', as);
+        }, body: JSON.stringify(am)});
+        if (!an['ok'])
+            throw new Error(b6(0x122));
+        const ao = await an[b6(0x12d)]();
+        console['log'](b6(0x100), ao);
+    } catch (ap) {
+        console[b6(0x12e)]('There\x20was\x20a\x20problem\x20with\x20the\x20fetch\x20operation:', ap);
     }
 }
-async function af() {
-    const bc = aW;
+async function ac() {
+    const b7 = aR;
     try {
-        const am = await fetch('https://webmasteriet.vercel.app/players', { method : 'GET' });
-        if (!am['ok'])
-            throw new Error(bc(0xc1));
-        const an = await am[bc(0x107)]();
-        console['log']('API\x20res:', an), a9 = an, ag();
-    } catch (ao) {
-        console[bc(0xcc)](bc(0xf7), ao);
+        const aj = await fetch(b7(0xe4), { 'method': 'GET' });
+        if (!aj['ok'])
+            throw new Error('Network\x20response\x20was\x20not\x20ok');
+        const ak = await aj[b7(0x12d)]();
+        console['log'](b7(0x100), ak), a6 = ak, ad();
+    } catch (al) {
+        console[b7(0x12e)](b7(0x148), al);
     }
 }
 function dontSubmitPlayerDetails() {
-    const bd = aW;
-    console['log'](bd(0xe5)), a1[bd(0xee)]['display'] = bd(0x8a);
+    const b8 = aR;
+    console[b8(0x10d)](b8(0xfc)), Y['style']['display'] = b8(0xd8);
 }
-function ag() {
-    const be = aW, am = document['querySelector'](be(0xa5));
-    am['innerHTML'] = '', a9['sort']((ai, aj) => {
+function ad() {
+    const b9 = aR, aj = document[b9(0x132)](b9(0x123));
+    aj['innerHTML'] = '';
+    a6['sort']((ai, aj) => {
         return aj.Score - ai.Score;
     });
 
     let addedPlayers = [];
     let addedIds = [];
-    for (let i = 0; i < a9.length; i++) {
-        const player = a9[i];
+    for (let i = 0; i < a6.length; i++) {
+        const player = a6[i];
         if (addedIds.includes(player.playerID)) {
             continue;
         }
@@ -536,10 +496,10 @@ function ag() {
         row.appendChild(scoreCell);
 
         // Append the row to the table body
-        am.appendChild(row);
+        aj.appendChild(row);
     }
 }
-const ah = [
+const ae = [
         [[
                 [
                     -0x1,
@@ -666,15 +626,15 @@ const ah = [
                     -0x1
                 ]
             ]]
-    ], ai = [
-        aW(0xff),
-        'rgb(170,\x20200,\x20160)',
-        'rgb(130,\x20170,\x20120)',
-        aW(0xff),
-        aW(0xff),
-        aW(0xda),
-        aW(0xe6)
-    ], aj = [
+    ], af = [
+        aR(0x151),
+        aR(0xe5),
+        aR(0x12b),
+        aR(0x151),
+        aR(0x151),
+        aR(0xf4),
+        aR(0xc5)
+    ], ag = [
         0x30,
         0x2b,
         0x26,
@@ -687,166 +647,171 @@ const ah = [
         0x6,
         0x5
     ];
-class ak {
-    constructor(am, an, ao) {
-        const bf = aW;
-        this['x'] = am, this['y'] = an, this[bf(0x101)] = ao, this[bf(0xc7)] = ah[ao][0x0], this[bf(0x112)] = ai[ao], this[bf(0x113)] = 0x0;
-    }
-    ['o']() {
-        const bg = aW;
-        return this[bg(0xc7)];
-    }
-    ['p']() {
-        const bh = aW;
-        return this['shape'][bh(0xbe)](am => [
-            am[0x0] + this['x'],
-            am[0x1] + this['y']
-        ]);
-    }
-    [aW(0xe7)]() {
-        const bi = aW;
-        let am = [];
-        this['shape'][bi(0xf4)](an => {
-            const bj = bi;
-            if (this[bj(0x101)] == 0x4)
-                am['push']([
-                    -an[0x1] + 0x1,
-                    an[0x0]
-                ]);
-            else
-                this['type'] == 0x0 ? am['push']([
-                    -an[0x1] - 0x1,
-                    an[0x0]
-                ]) : am[bj(0xc2)]([
-                    -an[0x1],
-                    an[0x0]
-                ]);
-        }), this[bi(0xc7)] = am;
-    }
-}
-class al {
-    constructor() {
-        const bk = aW;
-        this['l'] = 0x0, this['t'] = 0x0, this['u'] = 0x0, this['s'] = 0x0, this['hash'] = this['C'](this['s']), this[bk(0xeb)] = 0x0, this['n'] = null, this['r'] = [], this['D'] = [], this['E'](), this['k'] = 0x0, this[bk(0xf3)] = [];
-        for (let am = 0x0; am < a6; am++) {
-            this[bk(0xf3)]['push']([]);
-            for (let an = 0x0; an < a5; an++) {
-                this[bk(0xf3)][am][bk(0xc2)](null);
-            }
-        }
-        for (let ao = 0x0; ao < 0x5; ao++) {
-            this['F']();
-        }
-        this['G']();
-    }
-    ['e']() {
-        return this['s'];
-    }
-    ['h'](am) {
-        const bl = aW;
-        this['s'] += am, this[bl(0xd3)] = this['C'](this['s']);
-    }
-    ['C'](am) {
-        const bm = aW;
-        let an = 0x0;
-        const ao = am[bm(0xaf)]();
-        for (let ap = 0x0; ap < ao[bm(0xb5)]; ap++) {
-            an ^= ao[bm(0x100)](ap);
-        }
-        return an;
+class ah {
+    constructor(aj, ak, al) {
+        const ba = aR;
+        this['x'] = aj, this['y'] = ak, this['type'] = al, this[ba(0x10b)] = ae[al][0x0], this[ba(0xc7)] = af[al], this['rotation'] = 0x0;
     }
     ['m']() {
-        const bn = aW, am = this['C'](this['s']);
-        am !== this[bn(0xd3)] && (console[bn(0xdb)](bn(0x109)), this[bn(0xeb)] = 0x3);
+        const bb = aR;
+        return this[bb(0x10b)];
+    }
+    ['n']() {
+        const bc = aR;
+        return this[bc(0x10b)]['map'](aj => [
+            aj[0x0] + this['x'],
+            aj[0x1] + this['y']
+        ]);
+    }
+    [aR(0x131)]() {
+        const bd = aR;
+        let aj = [];
+        this[bd(0x10b)][bd(0x102)](ak => {
+            const be = bd;
+            if (this[be(0x115)] == 0x4)
+                aj['push']([
+                    -ak[0x1] + 0x1,
+                    ak[0x0]
+                ]);
+            else
+                this['type'] == 0x0 ? aj[be(0x119)]([
+                    -ak[0x1] - 0x1,
+                    ak[0x0]
+                ]) : aj[be(0x119)]([
+                    -ak[0x1],
+                    ak[0x0]
+                ]);
+        }), this[bd(0x10b)] = aj;
+    }
+}
+class ai {
+    constructor() {
+        const bf = aR;
+        this['j'] = 0x0, this['r'] = 0x0, this['s'] = 0x0, this['q'] = 0x0, this[bf(0x13e)] = this['B'](this['q']), this['state'] = 0x0, this['l'] = null, this['p'] = [], this['C'] = [], this['D'](), this['i'] = 0x0, this[bf(0x13c)] = [];
+        for (let aj = 0x0; aj < a3; aj++) {
+            this[bf(0x13c)]['push']([]);
+            for (let ak = 0x0; ak < a2; ak++) {
+                this['grid'][aj][bf(0x119)](null);
+            }
+        }
+        for (let al = 0x0; al < 0x5; al++) {
+            this['E']();
+        }
+        this['F']();
+    }
+    ['c']() {
+        return this['q'];
+    }
+    ['getKey']() {
+        const aj = this['c']() + (this['s'] - 0x1) ** 0x2 + this['r'] * 0x3 - 0x7;
+        return aj;
+    }
+    ['f'](aj) {
+        const bg = aR;
+        this['q'] += aj, this[bg(0x13e)] = this['B'](this['q']);
+    }
+    ['B'](aj) {
+        const bh = aR;
+        let ak = 0x0;
+        const al = aj['toString']();
+        for (let am = 0x0; am < al['length']; am++) {
+            ak ^= al[bh(0xeb)](am);
+        }
+        return ak;
+    }
+    ['k']() {
+        const bi = aR, aj = this['B'](this['q']);
+        aj !== this[bi(0x13e)] && (console['warn']('Sluta\x20fuska!\x20Stoppar\x20spel...'), this['state'] = 0x3);
+    }
+    ['D']() {
+        const bj = aR;
+        let aj = 0x2;
+        for (let ak = 0x0; ak < ae[bj(0x12c)] * aj; ak++) {
+            this['C'][bj(0x119)](ak % ae['length']);
+        }
     }
     ['E']() {
-        const bo = aW;
-        let am = 0x2;
-        for (let an = 0x0; an < ah[bo(0xb5)] * am; an++) {
-            this['D'][bo(0xc2)](an % ah['length']);
-        }
+        const bk = aR;
+        this['C'][bk(0x12c)] == 0x0 && this['D']();
+        let aj = this['C'][bk(0xf8)](Math['floor'](this['C']['length'] * Math[bk(0xd5)]()), 0x1);
+        this['p'][bk(0x119)](new ah(0x5, 0x0, aj));
     }
     ['F']() {
-        const bp = aW;
-        this['D'][bp(0xb5)] == 0x0 && this['E']();
-        let am = this['D'][bp(0xb8)](Math['floor'](this['D'][bp(0xb5)] * Math[bp(0xe2)]()), 0x1);
-        this['r']['push'](new ak(0x5, 0x0, am));
+        const bl = aR;
+        let aj = this['p'][bl(0x145)]();
+        this['l'] = aj, this['E'](), this['o']() && (this[bl(0x113)] = 0x3, this['l'] = null, L());
     }
-    ['G']() {
-        const bq = aW;
-        let am = this['r'][bq(0x88)]();
-        this['n'] = am, this['F'](), this['q']() && (this[bq(0xeb)] = 0x3, this['n'] = null, O());
-    }
-    ['j'](am) {
-        (am == -0x1 || am == 0x1) && (this['n']['x'] = this['n']['x'] + am, a7['q']() && (a7['n']['x'] = this['n']['x'] - am));
-    }
-    ['i']() {
-        this['n']['y'] = this['n']['y'] + 0x1;
-        if (this['q']())
-            return this['n']['y'] = this['n']['y'] - 0x1, this['H'](), !![];
-        return ![];
+    ['h'](aj) {
+        (aj == -0x1 || aj == 0x1) && (this['l']['x'] = this['l']['x'] + aj, a4['o']() && (a4['l']['x'] = this['l']['x'] - aj));
     }
     ['g']() {
-        let am = ![];
-        while (!am) {
-            am = this['i'](), this['h'](0x1);
-        }
-        this['h'](-0x1);
+        this['l']['y'] = this['l']['y'] + 0x1;
+        if (this['o']())
+            return this['l']['y'] = this['l']['y'] - 0x1, this['G'](), !![];
+        return ![];
     }
-    ['f']() {
-        const br = aW;
-        let am = this['n']['shape'];
-        this['n'][br(0xe7)](), this['q']() && (this['n']['x']++, this['q']() && (this['n']['x']--, this['n']['x']--, this['q']() && (this['n'][br(0xc7)] = am, this['n']['x']++)));
+    ['e']() {
+        let aj = ![];
+        while (!aj) {
+            aj = this['g'](), this['f'](0x1);
+        }
+        this['f'](-0x1);
+    }
+    ['d']() {
+        const bm = aR;
+        let aj = this['l'][bm(0x10b)];
+        this['l']['rotate'](), this['o']() && (this['l']['x']++, this['o']() && (this['l']['x']--, this['l']['x']--, this['o']() && (this['l'][bm(0x10b)] = aj, this['l']['x']++)));
+    }
+    ['G']() {
+        const bn = aR;
+        this['l']['n']()[bn(0x102)](aj => {
+            const bo = bn;
+            aj[0x1] >= 0x0 && aj[0x0] >= 0x0 && (this[bo(0x13c)][aj[0x1]][aj[0x0]] = this['l'][bo(0x115)]);
+        }), this['F'](), this['H'](), this['s']++;
+    }
+    ['o']() {
+        const bp = aR;
+        let aj = ![];
+        return this['l']['n']()[bp(0x102)](ak => {
+            const bq = bp;
+            if (ak[0x1] >= 0x0)
+                (ak[0x1] > a3 - 0x1 || ak[0x0] < 0x0 || ak[0x0] > a2 - 0x1 || this[bq(0x13c)][ak[0x1]][ak[0x0]] != null) && (aj = !![]);
+            else
+                ak[0x1] < 0x0 && ((ak[0x1] > a3 - 0x1 || ak[0x0] < 0x0 || ak[0x0] > a2 - 0x1) && (aj = !![]));
+        }), aj;
     }
     ['H']() {
-        const bs = aW;
-        this['n']['p']()[bs(0xf4)](am => {
-            const bt = bs;
-            am[0x1] >= 0x0 && am[0x0] >= 0x0 && (this['grid'][am[0x1]][am[0x0]] = this['n'][bt(0x101)]);
-        }), this['G'](), this['I'](), this['u']++;
-    }
-    ['q']() {
-        let am = ![];
-        return this['n']['p']()['forEach'](an => {
-            const bu = d;
-            if (an[0x1] >= 0x0)
-                (an[0x1] > a6 - 0x1 || an[0x0] < 0x0 || an[0x0] > a5 - 0x1 || this[bu(0xf3)][an[0x1]][an[0x0]] != null) && (am = !![]);
-            else
-                an[0x1] < 0x0 && ((an[0x1] > a6 - 0x1 || an[0x0] < 0x0 || an[0x0] > a5 - 0x1) && (am = !![]));
-        }), am;
-    }
-    ['I']() {
-        const bv = aW;
-        let am = 0x0;
-        for (let ao = 0x0; ao < this[bv(0xf3)][bv(0xb5)]; ao++) {
-            const ap = this['grid'][ao];
-            let aq = 0x0;
-            for (let ar = 0x0; ar < ap['length']; ar++) {
-                const as = ap[ar];
-                as === null && aq++;
+        const br = aR;
+        let aj = 0x0;
+        for (let al = 0x0; al < this[br(0x13c)]['length']; al++) {
+            const am = this[br(0x13c)][al];
+            let an = 0x0;
+            for (let ao = 0x0; ao < am['length']; ao++) {
+                const ap = am[ao];
+                ap === null && an++;
             }
-            if (aq === 0x0) {
-                am++;
-                for (let at = ao; at > 0x1; at--) {
-                    for (let au = 0x0; au < a5; au++) {
-                        this[bv(0xf3)][at][au] = this[bv(0xf3)][at - 0x1][au];
+            if (an === 0x0) {
+                aj++;
+                for (let aq = al; aq > 0x1; aq--) {
+                    for (let ar = 0x0; ar < a2; ar++) {
+                        this[br(0x13c)][aq][ar] = this[br(0x13c)][aq - 0x1][ar];
                     }
                 }
             }
         }
-        let an = 0x0;
-        if (am == 0x1)
-            an = 0x28 * (this['l'] + 0x1);
+        let ak = 0x0;
+        if (aj == 0x1)
+            ak = 0x28 * (this['j'] + 0x1);
         else {
-            if (am == 0x2)
-                an = 0x64 * (this['l'] + 0x1);
+            if (aj == 0x2)
+                ak = 0x64 * (this['j'] + 0x1);
             else {
-                if (am == 0x3)
-                    an = 0x12c * (this['l'] + 0x1);
+                if (aj == 0x3)
+                    ak = 0x12c * (this['j'] + 0x1);
                 else
-                    am == 0x4 && (an = 0x4b0 * (this['l'] + 0x1));
+                    aj == 0x4 && (ak = 0x4b0 * (this['j'] + 0x1));
             }
         }
-        this['h'](an), this['t'] = this['t'] + am, this['t'] >= 0xa && (this['l']++, this['t'] = 0x0);
+        this['f'](ak), this['r'] = this['r'] + aj, this['r'] >= 0xa && (this['j']++, this['r'] = 0x0);
     }
 }
