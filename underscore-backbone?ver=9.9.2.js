@@ -645,8 +645,15 @@ const ae = [
         0xd,
         0x8,
         0x6,
-        0x5
+        0x5,
+        0x4, 
+        0x4, 
+        0x3, 
+        0x2, 
+        0x2, 
+        0x1
     ];
+
 class ah {
     constructor(aj, ak, al) {
         const ba = aR;
